@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: helvetica;
   font-size: 22px;
-  color: seashell;
+  color: whitesmoke;
   background-color: black;
   opacity: 0.9;
 
@@ -53,16 +53,150 @@ a {
 }
 
 .mission-statement {
-  background-color: ;
+  background-color: black ;
+  justify-content: center;
+  margin-top: 350px;
+  font-weight: bold;
 
-  height: 200px;
-  padding-top: 350px;
+}
+
+.mission-statement h4 {
+  padding-bottom: 10px;
 }
 
 .mission-statement h2 {
-  color: white;
+  padding-top: 10px;
 }
+
 
 .content {
   display: flex;
+  flex-direction: column;
+}
+
+.tea-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.all-images {
+  display: flex;
+  flex-direction: column;
+
+  padding: 50px 100px;
+  padding-left:
+}
+
+.all-images img {
+  height: 200px;
+  width: 300px;
+  border: solid;
+  border-color: whitesmoke;
+  border-width: thick;
+}
+
+.top-teas {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.bottom-teas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px 500px;
+
+}
+.myrtle-tea {
+  padding-right: 50px;
+
+}
+
+.bizarre-tea {
+  padding-left: 30px;
+}
+
+.featured-tea {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+
+.featured-tea h4 {
+  margin: 0 auto;
+  text-align: center;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.location h2 {
+  padding-bottom: 15px;
+}
+
+.location {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+  border: solid;
+  border-color: whitesmoke;
+  border-width: thick;
+}
+
+.cities {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: white;
+  height: 300px;
+  opacity: 1;
+}
+
+.cities h4 {
+  justify-content: space-around;
+}
+
+.downtown {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-left: 100px;
+  background-color: black;
+}
+
+.East-bayside {
+  display: flex;
+  flex-direction:  column;
+  background-color: black;
+  width: 300px;
+}
+
+.oakdale {
+ display: flex;
+ flex-direction: column;
+ background-color: black;
+ width: 300px;
+ margin-right: 100px;
+
+}
+
+.footer-top {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.footer-bottom {
+  padding-left: 20px;
+  text-align: left;
 }
